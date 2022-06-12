@@ -1,3 +1,32 @@
+# Picture Gallery
+Picture is a gallery created using React,React Hooks.
+The images were displayed using the Pixabay API and axios to fetch data.
+
+
+## Built with
+- React js
+- React Hooks
+- Pixabay API
+
+## Screenshots
+
+
+<img src="images/screenshot2.png" alt="Screenshot">
+
+
+## Deployment
+
+Depolyment link https://master--snazzy-zabaione-8f4d42.netlify.app/
+
+
+
+
+## Features
+
+- Search functionality added to search photos from API.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
