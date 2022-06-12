@@ -14,7 +14,7 @@ const[images, setImages] = useState([]);
         
     }
     useEffect(()=>{
-        fetch(`https://pixabay.com/api/?key=27880361-bc4454661400a34399c307948&q=${input}&image_type=photo`)
+        fetch(`https://pixabay.com/api/?key=27880361-bc4454661400a34399c307948`)
         .then(response => response.json())
         .then(response => setImages(response.hits))
         .catch(error => console.log(error))
