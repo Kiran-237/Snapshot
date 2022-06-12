@@ -62,7 +62,7 @@ const[images, setImages] = useState([]);
                     setInput(e.target.value)
                 }}
             />
-            <button type='submit' className='button' onClick={getImages}style={btn}>Search</button>
+            <button type='submit' className='button' onSubmit={getImages}style={btn}>Search</button>
             <Image setImages={images}/>
         </div>
         
